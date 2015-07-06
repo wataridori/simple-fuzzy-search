@@ -1,0 +1,14 @@
+{
+    "name": "wataridori/simple-fuzzy-search",
+    "description": "Simple Fuzzy Search for PHP",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Tran Duc Thang",
+            "email": "thangtd90@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"wataridori\\SFS\\": "src/"}
+    }
+}
