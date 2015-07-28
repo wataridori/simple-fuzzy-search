@@ -11,7 +11,7 @@ Simple Fuzzy Search for PHP
 
 ## Install
 
-You can install and manage BiasRandom by using `Composer`
+You can install and manage SimpleFuzzySearch by using `Composer`
 
 ```
 composer require wataridori/simple-fuzzy-search
