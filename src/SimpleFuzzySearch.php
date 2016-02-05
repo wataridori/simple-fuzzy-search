@@ -3,11 +3,10 @@
 /**
  * A Simple Fuzzy Search component using
  * Levenshtein Distance (LD) Algorithm and
- * Longest Common Substring (LCS) Algorithm
+ * Longest Common Substring (LCS) Algorithm.
  *
  * @author wataridori
  */
-
 namespace wataridori\SFS;
 
 class SimpleFuzzySearch
@@ -28,12 +27,12 @@ class SimpleFuzzySearch
     protected $searchString;
 
     /**
-     * @var float Max Levenshtein Distance Rate
+     * @var float Max Levenshtein Distance Rate.
      */
     protected $maxLD = 0.3;
 
     /**
-     * @var float Min Longest Common Substring Rate
+     * @var float Min Longest Common Substring Rate.
      */
     protected $minLCS = 0.7;
 
@@ -46,7 +45,8 @@ class SimpleFuzzySearch
     const LONGEST_COMMON_SUBSTRING_CHECK = 6;
 
     /**
-     * Constructor
+     * Constructor.
+     *
      * @param array $arrayData
      * @param array|string $attribute
      * @param string|null $searchString
@@ -59,7 +59,8 @@ class SimpleFuzzySearch
     }
 
     /**
-     * Get Max Levenshtein Distance Rate
+     * Get Max Levenshtein Distance Rate.
+     *
      * @return float
      */
     public function getMaxLD()
@@ -68,7 +69,8 @@ class SimpleFuzzySearch
     }
 
     /**
-     * Set Max Levenshtein Distance Rate
+     * Set Max Levenshtein Distance Rate.
+     *
      * @param float $ld
      */
     public function setMaxLD($ld)
@@ -77,7 +79,8 @@ class SimpleFuzzySearch
     }
 
     /**
-     * Get Min Longest Common Substring Rate
+     * Get Min Longest Common Substring Rate.
+     *
      * @return float
      */
     public function getMinLCS()
@@ -86,7 +89,8 @@ class SimpleFuzzySearch
     }
 
     /**
-     * Set Min Longest Common Substring Rate
+     * Set Min Longest Common Substring Rate.
+     *
      * @param float $lcs
      */
     public function setMinLCS($lcs)
@@ -96,8 +100,10 @@ class SimpleFuzzySearch
 
     /**
      * Search using Levenshtein Distance (LD) Algorithm and
-     * Longest Common Substring (LCS) Algorithm
+     * Longest Common Substring (LCS) Algorithm.
+     *
      * @param string|null $searchString
+     *
      * @return array
      */
     public function search($searchString = null)
@@ -153,9 +159,11 @@ class SimpleFuzzySearch
     }
 
     /**
-     * Check whether Levenshtein Distance is small enough
+     * Check whether Levenshtein Distance is small enough.
+     *
      * @param int $ld
      * @param string $str
+     *
      * @return bool
      */
     private function checkLD($ld, $str)
@@ -168,9 +176,11 @@ class SimpleFuzzySearch
     }
 
     /**
-     * Get Longest Common Substring
+     * Get Longest Common Substring.
+     *
      * @param string $firstString
      * @param string $secondString
+     *
      * @return string
      */
     private function getLCS($firstString, $secondString)
@@ -212,9 +222,11 @@ class SimpleFuzzySearch
     }
 
     /**
-     * Sort arrays base on type and typeVal
+     * Sort arrays base on type and typeVal.
+     *
      * @param array $firstArray
      * @param array $secondArray
+     *
      * @return int
      */
     private function sortArray($firstArray, $secondArray)

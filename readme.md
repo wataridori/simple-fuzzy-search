@@ -1,5 +1,6 @@
 Simple Fuzzy Search for PHP
 ==========
+[![StyleCI](https://styleci.io/repos/38619031/shield)](https://styleci.io/repos/38619031)
 [![Build Status](https://travis-ci.org/wataridori/simple-fuzzy-search.svg)](https://travis-ci.org/wataridori/simple-fuzzy-search)
 [![Latest Stable Version](https://poser.pugx.org/wataridori/simple-fuzzy-search/v/stable.svg)](https://packagist.org/packages/wataridori/simple-fuzzy-search)
 [![Total Downloads](https://poser.pugx.org/wataridori/simple-fuzzy-search/downloads.svg)](https://packagist.org/packages/wataridori/simple-fuzzy-search)

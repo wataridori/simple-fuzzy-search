@@ -1,0 +1,14 @@
+preset: recommended
+
+risky: false
+
+linting: true
+
+enabled:
+    - unalign_double_arrow
+    - concat_with_spaces
+disabled:
+    - align_double_arrow
+    - concat_without_spaces
+    - phpdoc_align
+    - blank_line_before_return
