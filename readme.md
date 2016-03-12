@@ -7,6 +7,9 @@ Simple Fuzzy Search for PHP
 [![Latest Unstable Version](https://poser.pugx.org/wataridori/simple-fuzzy-search/v/unstable.svg)](https://packagist.org/packages/wataridori/simple-fuzzy-search)
 [![License](https://poser.pugx.org/wataridori/simple-fuzzy-search/license.svg)](https://packagist.org/packages/wataridori/simple-fuzzy-search)
 
+## About
+A Simple Fuzzy Search component using [**Levenshtein Distance (LD)** Algorithm](https://en.wikipedia.org/wiki/Levenshtein_distance) and [**Longest Common Substring (LCS)** Algorithm](https://en.wikipedia.org/wiki/Longest_common_substring_problem).
+
 ## Requirement
 * PHP >= 5.4
 
