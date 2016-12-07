@@ -7,6 +7,7 @@
  *
  * @author wataridori
  */
+
 namespace wataridori\SFS;
 
 class SimpleFuzzySearch
